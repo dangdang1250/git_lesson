@@ -8,7 +8,7 @@ import logging
 
 #logging config
 logging.basicConfig(filename='test.log', level=logging.DEBUG,
-   format='%(asctime)s:%(levename)s:%(message)s')
+   format='%(asctime)s:%(name)s:%(message)s')
 
 SRC_PATH = os.getcwd()
 os.chdir(r'/home/jicheng/MY20')
