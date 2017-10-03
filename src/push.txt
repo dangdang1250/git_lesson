@@ -1,2 +1,2 @@
-out/target/produce/system/lib64/gps.so, /system/lib64/
-
+out/target/product/system/lib64/gps.so, /system/lib64/
+# out/target/product/system/bin/my_app, /system/bin/ this line will be ignored
