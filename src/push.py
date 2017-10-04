@@ -1,5 +1,6 @@
 #!usr/bin/python
 """ read push.txt and push all the files to destination """
+""" TODO learn how to get dynamic pwd """
 
 import os
 import csv
