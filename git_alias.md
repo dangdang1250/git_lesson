@@ -26,7 +26,7 @@ wip = commit -am "WIP"
 undo = reset HEAD~1 --mixed
 unstage = reset HEAD --
 
-# for my personal project, this one will only do one commit, so if pushed, don't do this
+# for my personal project, this one will commit changes to previous commit, so if pushed, don't do this
 caa = commit -a --amend -C HEAD
 
 # for log display all examples
