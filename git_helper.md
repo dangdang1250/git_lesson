@@ -14,14 +14,6 @@ git ls-files -o  # -o 這個選項顯示沒有被git管理的所有文件包括�
 #--exclude-standard 這個選項考慮.gitignore了。
 ```
 
-## git alias
-ci = commit
-la = diff --cached --name-only
-da = diff --cached
-ls = ls-files -m 
-new = ls-files -o --exclude-standard
-gone = ls-files -d
-
 ```bash
 #count the number of lines attributed to each author
 git blame --line-porcelain <file's name> | sed -n 's/^author //p' | sort | uniq -c | sort -rn
