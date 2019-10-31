@@ -104,5 +104,3 @@ $ git grep --quiet searchstring
 ```bash
 git submodule add <url>
 ```
-## good place to see how git works
-https://git-school.github.io/visualizing-git/
