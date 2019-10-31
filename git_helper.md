@@ -84,6 +84,21 @@ git lfs track '*.jpg'
 # if you already has binary submitted
 
 ```
+## git grep examples
+
+```shell
+# Here's how to use it with more options below.
+$ git grep 'searchstring'
+
+# Show the count of occurrences found for each file.
+$ git grep --count 'searchstring'
+# Ignore case sensitivity.
+$ git grep --ignore-case 'searchstring'
+# Search through untracked files.
+$ git grep --untracked 'searchstring'
+# Quiet mode. Exits 0 if match found. Useful for scripts and hooks.
+$ git grep --quiet searchstring
+```
 
 ## git submodule
 ```bash

@@ -28,6 +28,8 @@ git rev-list $newrev..$oldrev
 
 ```shell
 git ls-files -o --exclude-standard # add the standard Git exclusions:.git/info/exclude, .gitignore in each directory, and the user's global exclusion file.
+
+git ls-files | grep -E \.js$
 ```
 ## Other commands
 ```shell
